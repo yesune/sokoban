@@ -133,7 +133,7 @@ function swapChars(
   } else if (level[y1][x1] === BOX_ON_GOAL && level[y2][x2] === FLOOR) {
     level[y1][x1] = GOAL;
     level[y2][x2] = BOX;
-  } else if (level[y1][x1] === BOX_ON_GOAL && level[y2][x2] === BOX_ON_GOAL) {
+  } else if (level[y1][x1] === BOX_ON_GOAL && level[y2][x2] === GOAL) {
     level[y1][x1] = GOAL;
     level[y2][x2] = BOX_ON_GOAL;
   }
